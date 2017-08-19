@@ -1,0 +1,48 @@
+baseURL = "http://paniconerror.org/"
+title = "panicOnError()"
+
+languageCode = "en-us"
+canonifyURLs = true
+pygmentsuseclasses = true
+pygmentscodefences = true
+
+theme = "hucore"
+
+copyright = "&copy; 2017. All rights reserved."
+disqusShortname = "paniconerror"
+googleAnalytics = "UA-83182650-1"
+
+[permalinks]
+    post = ":year/:month/:day/:title/"
+    fixed = ":title/"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[params]
+    description = "Don't panic!"
+    keywords = ["blog", "development", "programing"]
+    author = "Luiz de Prá"
+    sharingicons = false
+
+[params.highlight]
+    style = "github"
+    languages = ["go", "python"]
+
+[[params.social]]
+    url = "https://github.com/luizdepra"
+    fa_icon = "fa-github"
+
+[[params.social]]
+    url = "https://twitter.com/luizdepra"
+    fa_icon = "fa-twitter"
+
+[[params.social]]
+    url = "https://luizdepra.com"
+    fa_icon = "fa-vcard"
+
+[[params.social]]
+    url = "/index.xml"
+    fa_icon = "fa-rss"
+
