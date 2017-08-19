@@ -1,9 +1,0 @@
-[submodule "themes/hyde"]
-	path = themes/hyde
-	url = https://github.com/spf13/hyde.git
-[submodule "themes/strange-case"]
-	path = themes/strange-case
-	url = git@github.com:ExchangeRate-API/strange-case.git
-[submodule "themes/hucore"]
-	path = themes/hucore
-	url = git@github.com:mgjohansen/hucore.git
